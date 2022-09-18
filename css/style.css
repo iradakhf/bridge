@@ -1,0 +1,429 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css);
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap");
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+@media (max-width: 576px) {
+  header {
+    position: -webkit-sticky !important;
+    position: sticky !important;
+  }
+  header .common .left {
+    margin-left: 10rem;
+  }
+  header .common nav ul li {
+    display: none;
+  }
+  header .common nav ul .icon {
+    display: block;
+  }
+  main #first h2 {
+    font-size: 30px !important;
+    padding: 0rem 4rem;
+  }
+  main #first p {
+    padding: 1rem 0rem !important;
+  }
+  main #six {
+    overflow: hidden;
+  }
+  main #six .left {
+    display: flex;
+    justify-content: center;
+    padding: 0rem !important;
+  }
+  main #six .right {
+    text-align: center;
+    padding: 1rem 0rem !important;
+  }
+  main #nine {
+    padding: 1rem 0rem !important;
+  }
+}
+header {
+  position: fixed;
+  width: 100%;
+}
+header .common nav .ulBlog {
+  left: -10rem;
+}
+header .common nav .ulBlog li {
+  padding-right: 1rem !important;
+}
+header .common nav ul {
+  display: flex;
+  justify-content: flex-end;
+}
+header .common nav ul .innerUl {
+  display: flex;
+  flex-wrap: nowrap;
+  left: -25rem;
+  border-right: 1px solid rgb(129, 129, 129);
+}
+header .common nav ul .innerUl h6 {
+  font-size: 14px;
+  color: white;
+}
+header .common nav ul .innerUl .inner {
+  border: 1px solid rgb(119, 119, 119);
+  padding-top: 1rem;
+}
+header .common nav ul li {
+  position: relative;
+  padding-right: 2rem;
+}
+header .common nav ul li:hover ul {
+  visibility: visible;
+  opacity: 1;
+}
+header .common nav ul li a {
+  font-size: 13px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+  letter-spacing: 1px;
+  color: rgb(0, 0, 0);
+}
+header .common nav ul li a:hover {
+  color: rgb(0, 0, 0);
+}
+header .common nav ul li ul {
+  position: absolute;
+  display: flex;
+  flex-wrap: wrap;
+  top: 1;
+  left: 0;
+  text-align: left;
+  justify-content: flex-start;
+  visibility: hidden;
+  opacity: 0;
+  background-color: rgb(38, 38, 38);
+  color: rgb(129, 129, 129);
+  font-size: 12px;
+}
+header .common nav ul li ul li {
+  padding: 0;
+  width: 13.5rem;
+  padding-left: 1rem;
+  margin-bottom: 1rem;
+}
+header .common nav ul li ul .first {
+  margin-top: 1rem;
+}
+header .common img {
+  width: 100%;
+}
+
+#sidebar {
+  position: fixed;
+  visibility: hidden;
+  opacity: 0;
+  right: 0;
+  top: 0;
+  text-align: start;
+  background-color: rgb(38, 38, 38);
+  color: black;
+}
+#sidebar ul {
+  padding: 2rem 2rem;
+}
+#sidebar #close {
+  text-align: end;
+}
+
+.active {
+  visibility: visible !important;
+  opacity: 2 !important;
+}
+
+main #first {
+  background-image: url(https://demo.qodeinteractive.com/bridge/wp-content/uploads/2014/03/full01.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-bottom: 16rem;
+  text-align: center;
+}
+main #first .textdiv {
+  padding-top: 15rem;
+}
+main #first .textdiv h2 {
+  font-size: 56px;
+  font-weight: 600;
+  font-family: "Raleway", sans-serif;
+}
+main #first .textdiv p {
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  font-size: 21px;
+  padding: 1rem 20rem;
+}
+main #first .textdiv button {
+  background-color: rgb(26, 188, 156);
+  border: 1px solid rgb(26, 188, 156);
+  padding: 0.5rem 3rem;
+  border-radius: 0.3rem;
+}
+main #first .textdiv button:hover {
+  background-color: white;
+  border: 1px solid white;
+}
+main #first .textdiv button:hover a {
+  color: rgb(26, 188, 156);
+}
+main #first .textdiv button a {
+  color: white;
+}
+main #second {
+  padding-top: 10rem;
+  text-align: center;
+  overflow: hidden;
+}
+main #second img {
+  width: 100%;
+}
+main #second h2 {
+  font-size: 24px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+  letter-spacing: 1px;
+  color: rgb(48, 48, 48);
+  padding-bottom: 3rem;
+}
+main #second h4 {
+  padding-bottom: 3rem;
+  font-size: 19px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  color: rgb(48, 48, 48);
+}
+main #third {
+  overflow: hidden;
+  padding-top: 4rem;
+  background-color: rgb(216, 214, 214);
+}
+main #third img {
+  width: 100%;
+}
+main #third h2 {
+  color: rgb(48, 48, 48);
+  font-size: 24px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-align: center;
+}
+main #third h4 {
+  text-align: center;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  font-size: 19px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  color: rgb(48, 48, 48);
+}
+main #fourth {
+  padding: 4rem 0rem;
+  overflow: hidden;
+}
+main #fourth i {
+  color: rgb(192, 192, 192);
+  font-size: 38px;
+}
+main #fourth h5 {
+  font-size: 15px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+  color: rgb(48, 48, 48);
+}
+main #fourth p {
+  color: rgb(129, 129, 129);
+  font-family: "Raleway", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+}
+main #fifth {
+  background-image: url(https://demo.qodeinteractive.com/bridge/wp-content/uploads/2014/03/full01.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: top;
+}
+main #fifth .general {
+  padding: 14rem 0rem;
+  text-align: center;
+}
+main #fifth .general span {
+  font-size: 60px;
+  font-weight: 300;
+  color: rgb(48, 48, 48);
+}
+main #six {
+  padding: 3rem 0rem;
+}
+main #six img {
+  width: 100%;
+}
+main #six .right {
+  padding-left: 8rem;
+}
+main #six .right p {
+  font-size: 14px;
+  font-weight: 400;
+  color: rgb(129, 129, 129);
+  font-family: "Raleway", sans-serif;
+  padding-bottom: 1rem;
+  line-height: 1.5rem;
+}
+main #six .right h2 {
+  padding-bottom: 1rem;
+  font-size: 24px;
+  font-weight: 600;
+  font-family: "Raleway", sans-serif;
+  letter-spacing: 1px;
+  color: rgb(48, 48, 48);
+}
+main #six .right button {
+  background-color: white;
+  border-radius: 0.3rem;
+  padding: 0.5rem 1rem;
+  border: 1px solid black;
+  transition: 0.5s;
+  color: black;
+}
+main #six .right button:hover {
+  background-color: aqua;
+  color: white;
+  border: 1px solid aqua;
+}
+main #seven {
+  overflow: hidden;
+  text-align: center;
+  background-color: rgb(216, 214, 214);
+}
+main #seven h2 {
+  padding: 2rem 0rem;
+  font-size: 24px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+  letter-spacing: 1px;
+  color: rgb(48, 48, 48);
+  padding-bottom: 3rem;
+}
+main #seven img {
+  width: 100%;
+}
+main #eight {
+  padding: 5rem 0rem;
+}
+main #eight h2 {
+  font-size: 24px;
+  font-weight: 600;
+  font-family: "Raleway", sans-serif;
+  letter-spacing: 1px;
+  color: rgb(48, 48, 48);
+  padding-bottom: 2rem;
+}
+main #eight h4 {
+  font-size: 19px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  color: rgb(48, 48, 48);
+  padding-bottom: 2rem;
+}
+main #eight p {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 26px;
+  font-family: "Raleway", sans-serif;
+  color: rgb(129, 129, 129);
+}
+main #eight button {
+  background-color: white;
+  border-radius: 0.3rem;
+  padding: 0.5rem 1rem;
+  border: 1px solid black;
+  transition: 0.5s;
+}
+main #eight button a {
+  color: black;
+}
+main #eight button:hover {
+  background-color: aqua;
+  border: 1px solid aqua;
+}
+main #eight button:hover a {
+  color: white;
+}
+main #nine {
+  background-color: rgb(216, 214, 214);
+  text-align: center;
+  padding: 6rem;
+}
+main #nine h2 {
+  padding: 0rem 0rem 2rem;
+  font-size: 24px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+  letter-spacing: 1px;
+  color: rgb(48, 48, 48);
+}
+main #nine p {
+  font-size: 20px;
+  font-weight: 400;
+  color: rgb(129, 129, 129);
+  font-family: "Raleway", sans-serif;
+  padding-bottom: 1rem;
+  line-height: 1.5rem;
+  padding: 0rem 5rem;
+  line-height: 30px;
+}
+main #nine .last p {
+  color: black;
+  font-size: 15px;
+}
+main #nine .last p span {
+  padding-left: 1rem;
+  color: blue;
+}
+main #ten {
+  overflow: hidden;
+}
+main #ten img {
+  width: 100%;
+}
+main #eleven {
+  overflow: hidden;
+  padding: 4rem 0rem;
+  background-color: rgb(48, 48, 48);
+}
+main #eleven img {
+  width: 100%;
+}
+main #eleven p {
+  padding-top: 2rem;
+}
+main #eleven button {
+  margin-top: 2rem;
+  background-color: transparent;
+  border-radius: 0.3rem;
+  padding: 0.5rem 2rem;
+  border: 1px solid rgb(216, 214, 214);
+  color: rgb(216, 214, 214);
+}
+
+footer {
+  padding: 1rem 0rem;
+  background-color: black;
+  overflow: hidden;
+}
+footer p {
+  margin: 0rem !important;
+}/*# sourceMappingURL=style.css.map */
